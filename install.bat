@@ -32,4 +32,5 @@ echo .
 choco install winrar -y
 
 echo "Installers all finished." & echo . & echo "Press any key to finish..."
+pause
 
