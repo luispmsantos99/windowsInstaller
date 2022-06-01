@@ -1,7 +1,7 @@
 <h1 align="center">Links</h1>
 <h3 align="center">MS Windows Activate</h3>
 
-<p> slmgr /ipk </p>
+<p> slmgr /ipk {key from below}</p>
 
 ```
  Professional: W269N-WFGWX-YVC9B-4J6C9-T83GX
