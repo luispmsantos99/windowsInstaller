@@ -1,8 +1,6 @@
 @echo off
 
-start /b /wait powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
-choco feature enable -n=allowGlobalConfirmation
-
+start /b /wait powershell -NoProfile -ExecutionPolicy Bypass -Command "Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 
 choco install geforce-game-ready-driver -y
 
