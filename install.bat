@@ -27,8 +27,6 @@ choco install obs-studio -y
 echo.
 choco install megasync -y
 echo.
-choco install utorrent -y
-echo.
 choco install winrar -y
 
 echo "Installation finished!"
