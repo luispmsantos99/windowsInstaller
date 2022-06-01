@@ -19,6 +19,10 @@ slmgr /skms s8.uk.to
 slmgr /ato
 
 
+<h3 align="center">MS Office</h3>
+```
+https://msguides.com/office-365
+```
 
 
 
