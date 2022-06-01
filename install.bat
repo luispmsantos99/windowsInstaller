@@ -4,33 +4,33 @@ start /b /wait powershell -NoProfile -ExecutionPolicy Bypass -Command "Set-Execu
 
 echo "Installing All Apps..."
 choco install geforce-game-ready-driver -y
-echo .
+echo.
 choco install steam -y
-echo .
+echo.
 choco install ccleaner -y
-echo .
+echo.
 choco install discord -y
-echo .
+echo.
 choco install hwinfo -y
-echo .
+echo.
 choco install msiafterburner -y
-echo .
+echo.
 choco install vlc -y
-echo .
+echo.
 choco install malwarebytes -y
-echo .
+echo.
 choco install whatsapp -y
-echo .
+echo.
 choco install googlechrome -y
-echo .
+echo.
 choco install obs-studio -y
-echo .
+echo.
 choco install megasync -y
-echo .
+echo.
 choco install utorrent -y
-echo .
+echo.
 choco install winrar -y
 
-echo "Installers all finished." & echo . & echo "Press any key to finish..."
+echo "Installation finished!"
 pause
 
